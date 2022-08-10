@@ -1,13 +1,35 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    
 }
+
+
 
 header {
     font-size: larger;
     color: blue;
+    position: fixed;
+    top: 0px;
+    z-index: 0;
+}
+
+figure {
+    position: relative;
+    left: 300px;
 }
 
 .labels {
+background-color: aquamarine;
+position: relative;
+top: -50px;
+
+}
+
+.label_element {
 padding: 10px;
 display: block;
+}
+
+footer {
+    color: blueviolet;
 }

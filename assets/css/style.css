@@ -40,6 +40,13 @@ padding: 10px;
 display: block;
 }
 
+button {
+    color: white;
+    border: solid;
+    border-color: gold;
+}
+
 footer {
     color: blueviolet;
 }
+

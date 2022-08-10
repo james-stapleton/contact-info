@@ -1,27 +1,37 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    
+    background-color: black;
 }
 
+h1 {
+    display: inline-block;
+}
 
-
-header {
-    font-size: larger;
-    color: blue;
+.header {
+    background-color: grey;
+    color: grey;
     position: fixed;
-    top: 0px;
-    z-index: 0;
+    width: 100%;
+}
+.header div {
+    float: right;
+    margin-right: 25px;
+    font-size: 25px;
 }
 
 figure {
+    margin-top: 50px;
+    display: block;
     position: relative;
-    left: 300px;
+    top: 150px;
+    color: white;
 }
 
 .labels {
-background-color: aquamarine;
+background-color: grey;
+color: white;
 position: relative;
-top: -50px;
+top: 200px;
 
 }
 

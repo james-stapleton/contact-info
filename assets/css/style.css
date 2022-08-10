@@ -4,5 +4,10 @@
 
 header {
     font-size: larger;
-    color: ;
+    color: blue;
+}
+
+.labels {
+padding: 10px;
+display: block;
 }
